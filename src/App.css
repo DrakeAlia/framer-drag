@@ -1,6 +1,6 @@
 .item {
   min-height: 40rem;
-  width: 30rem;
+  min-width: 30rem;
   padding: 40px;
 }
 
@@ -8,13 +8,16 @@
   width: 100%;
   height: 100%;
   border-radius: 2rem;
+  pointer-events: none;
 }
 
 .inner-carousel {
   display: flex;
-  background: lightblue;
+  /* background: lightblue; */
 }
 
 .carousel {
-    cursor: grab;
+  cursor: grab;
+  overflow: hidden;
+  /* background: rgb(230, 173, 173); */
 }
